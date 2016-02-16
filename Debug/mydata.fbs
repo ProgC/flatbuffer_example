@@ -1,0 +1,18 @@
+
+namespace ProgC.PlayerData;
+
+struct PlayerData
+{
+	age : int;
+	height : int;
+	speed : float;
+}
+
+table Player
+{
+	id:int=10;
+	hp:float = 97.5;	
+}
+
+root_type Player;
+
